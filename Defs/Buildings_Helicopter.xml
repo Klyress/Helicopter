@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+    <ThingDef ParentName="BuildingBase">
+        <defName>Helicopter</defName>
+        <label>helicopter</label>
+        <description></description>
+        <graphicData>
+            <texPath>02</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <size>(4,6)</size>
+        <rotatable>true</rotatable>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <castEdgeShadows>true</castEdgeShadows>
+        <fillPercent>0.5</fillPercent>
+        <designationCategory>Misc</designationCategory>
+        <iconDrawScale>1</iconDrawScale>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>3000</WorkToBuild>
+            <Flammability>0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>1</Steel>
+            <Component>1</Component>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Transporter" />
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_NotUnderRoof</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>TransportPod</li>
+        </researchPrerequisites>
+    </ThingDef>
+</Buildings>
