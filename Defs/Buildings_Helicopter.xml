@@ -5,13 +5,13 @@
         <label>helicopter</label>
         <description></description>
         <graphicData>
-            <texPath>02</texPath>
+            <texPath>chopper_800x1200</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1,1)</drawSize>
+            <drawSize>(6,9)</drawSize>
         </graphicData>
         <size>(4,6)</size>
         <rotatable>true</rotatable>
-        <altitudeLayer>Building</altitudeLayer>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
         <passability>Impassable</passability>
         <castEdgeShadows>true</castEdgeShadows>
         <fillPercent>0.5</fillPercent>

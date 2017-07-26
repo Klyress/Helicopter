@@ -148,7 +148,7 @@ namespace RimWorld
             {
                 return null;
             }
-            TransporterUtility.GetTransportersInGroup(this.groupID, map, CompHeliCarrier.tmpTransportersInGroup);
+            //TransporterUtility.GetTransportersInGroup(this.groupID, map, CompHeliCarrier.tmpTransportersInGroup);
             return CompHeliCarrier.tmpTransportersInGroup;
         }
 
@@ -284,9 +284,5 @@ namespace RimWorld
             CameraJumper.TryJumpAndSelect(list[(num + 1) % list.Count].parent);
         }
 
-        public virtual IThingHolder get_ParentHolder()
-        {
-            return base.ParentHolder;
-        }
     }
 }
